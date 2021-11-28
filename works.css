@@ -1,0 +1,106 @@
+.pandora{
+    background-color: #fcfcfc;/*背景の色指定*/
+    margin: 0;
+
+    font-family: "游ゴシック体", YuGothic,"游ゴシック","Yu Gothic";
+    color: #707070;
+}
+
+.title{
+    margin-top:4vw;
+    /* 
+    margin-bottom: -1vw;
+    margin-left: 46.5vw;
+    margin-right: 5vw; */
+
+    /* font-size: 1.1vw; */
+    font-size: 15px;
+
+    text-align: center;
+}
+.title h2{
+    font-weight: normal;
+}
+
+
+/* ここダメ！！！！！レスポンシブ死ぬ！ */
+/* .sakuhin_tyuusin{
+    margin-left :20vh;
+    margin-top :10vh;
+} */
+
+.sakuhin_tyuusin{
+    margin-top: 1vw;
+    margin-bottom: 8vw;
+}
+
+.sakuhin {
+    /* margin-left: 6vw; 無理やり */
+
+    display: flex; /* flexは横並びにするためのプロパティ */
+    flex-wrap: wrap; /* flexで横並びにさせた要素を改行させる */
+    flex-direction: row; /* フレックスコンテナーの並んでいる方向を右にする */
+    justify-content: center; /* アイテムを左端に寄せる */
+  }
+.item{
+    margin:13px 15px;
+}
+.item-image{
+    width: 45vh;
+}
+.item-sakuhin-namae, .item-sakuhin-janru{
+    text-align:center;
+    margin: auto;
+    height: 30px;
+    color: #707070;
+    
+    font-weight:normal;
+
+}
+.item-sakuhin-namae{
+    font-size: 23px;
+}
+
+
+
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: #fcfcfc;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  header a{
+    color: #707070;
+}
+header a{
+    font-size: 1.5vw;
+    text-decoration: none;
+}
+.migi{
+    margin-left: 7vw;
+}
+.hidari{
+    margin-right: 7vw;
+}
+.mannaka{
+    text-align:center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 2.5vw;
+    line-height: 2px;
+    font-weight: normal;
+  }
+  .mannaka_yusuke{
+    text-align:center;
+
+    font-size: 1.1vw;
+    margin-left: auto;
+    margin-right: auto;
+  }

@@ -1,0 +1,133 @@
+.Profile{
+    background-color: #fcfcfc;
+    color:#707070;
+    margin: 0;
+    font-family: "游ゴシック体", YuGothic,"游ゴシック","Yu Gothic";
+}
+
+.ue_margin{
+    margin-top: 7vw;
+}
+.ue {
+    /* margin-left: 6vw; 無理やり */
+    display: flex; /* flexは横並びにするためのプロパティ */
+    flex-wrap: wrap; /* flexで横並びにさせた要素を改行させる */
+    flex-direction: row; /* フレックスコンテナーの並んでいる方向を右にする */
+    justify-content: center; /* アイテムを左端に寄せる */
+  }
+.name{
+    display: flex; /* flexは横並びにするためのプロパティ */
+    flex-wrap: wrap; /* flexで横並びにさせた要素を改行させる */
+    flex-direction: row; /* フレックスコンテナーの並んでいる方向を右にする */
+    justify-content: center; /* アイテムを左端に寄せる */
+}
+.syousai{
+    font-size: 1.2vw;
+}
+.me{
+    margin-top: 3vw;
+    height: 15vw;
+}
+.name{
+    font-size: 2.5vw;
+    margin-right: 20vw;
+}
+.sub_name{
+    margin-left: 1.4vw;
+    margin-top: 4.2vw;
+    font-size: 1.2vw;
+}
+
+
+
+.mannaka_margin{
+    margin-top: 3vw;
+}
+.mannaka{
+    display: flex; /* flexは横並びにするためのプロパティ */
+    flex-wrap: wrap; /* flexで横並びにさせた要素を改行させる */
+    flex-direction: row; /* フレックスコンテナーの並んでいる方向を右にする */
+    justify-content: center; /* アイテムを左端に寄せる */    
+}
+.mannaka p{
+    font-size: 1.2vw;
+}
+.iroiro_title{
+    margin-right:10vw ;
+}
+.iroiro_syousai{
+    width: 51%;
+    height: 100%;
+    text-align: left;
+}
+
+
+
+
+.sita_margin{
+    margin-top: 3vw;
+    margin-bottom: 8vw;
+}
+
+
+
+
+
+.iroiro h2{
+    font-weight: normal;
+    font-size: 1.4vw;
+}
+
+
+
+
+
+
+
+
+header  {
+    background-color: #fcfcfc;
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+
+    color: #707070;
+  }
+
+  .mannakayo{
+    text-align:center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 2.5vw;
+    margin-bottom: -1vw;
+
+    font-weight: normal;
+  }
+  .mannaka_yusuke{
+    text-align:center;
+
+    font-size: 1.1vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
+
+header a{
+    color: #707070;
+}
+header a{
+    font-size: 1.5vw;
+    text-decoration: none;
+}
+.migi{
+    margin-left: 7vw;
+}
+.hidari{
+    margin-right: 7vw;
+}

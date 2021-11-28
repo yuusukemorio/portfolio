@@ -1,0 +1,258 @@
+@font-face {
+    font-family: "KleeOne-Regular";
+    src: url("Klee_One/KleeOne-Regular.ttf") format("truetype");
+}
+
+body{
+    overflow-x: hidden;    
+    overflow-y: hidden;
+    margin: 0;
+    /* font-family: "KleeOne-Regular"; */
+    font-family: "游ゴシック体", YuGothic,"游ゴシック","Yu Gothic";
+}
+
+.pandora{
+    background-color: #1D1D1D;/*背景の色指定*/
+    color:#F8F8F8;
+}
+.LifeisBeautiful{
+    background-color:#F8F8F8;/*背景の色指定*/
+    color:#707070;
+}
+.chaos{
+    background-color:#8B2528;/*背景の色指定*/
+    color:#F8F8F8;
+}
+.rantyu{
+    background-color:#505850;/*背景の色指定*/
+    color:#F8F8F8;
+}
+.sia{
+    background-color:#2D3960;/*背景の色指定*/
+    color:#F8F8F8;
+}
+.whatislove{
+    background-color:#cf1193;/*背景の色指定*/
+    color:#F8F8F8;
+}
+.SilentofBirth{
+    background-color:#221F31;/*背景の色指定*/
+    color:#F8F8F8;
+}
+.kobeya{
+    background-color:#4E4744;/*背景の色指定*/
+    color:#F8F8F8;
+}
+.gazou_kobeya{
+    height: 34vw;
+}
+.gasyadokuro{
+    background-color:#404040;/*背景の色指定*/
+    color:#F8F8F8;
+}
+
+
+.title{
+    margin:4.5vw 45px;
+}
+.title_h2{
+    font-weight: normal;
+    font-size: 1.8vw;
+}
+
+
+.setumei{
+    /* margin-left: 4vh; */
+    width: 30vw;
+    height: 33.6vw;
+    margin-left: 4vw;
+    margin: 0vh 4vw;
+    font-size: 1.15vw;
+    overflow-y: scroll;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.setumei_taitoru_dekai{
+    font-weight: normal;
+    font-size: 2vw;
+}
+
+.setumei_sabutaitoru{
+    margin-top: -2.2vh;
+}
+.setumei_honbun{
+    margin-top: 5vh;
+}
+
+.setumei::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .setumei {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+
+
+.youtube_wrap{
+    width: 60%;
+    margin: 0vh 0.551vw;/* レスポンシブに合わせてマージンの微調整 */
+}
+.youtube_eizo{
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+.youtube_eizo iframe{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+/* .youtube_eizo{
+    margin-left: -4vw;
+} */
+
+
+
+
+
+
+.matome{
+display: flex; /* flexは横並びにするためのプロパティ */
+flex-wrap: wrap; /* flexで横並びにさせた要素を改行させる */
+flex-direction: row; /* フレックスコンテナーの並んでいる方向を右にする */
+justify-content:start; /* アイテムを左端に寄せる   center   */
+}
+
+
+
+
+
+header  {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .mannaka{
+    text-align:center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 2.5vw;
+    line-height: 2.5vw;
+    margin-bottom: 0;
+    margin-top: 1.1vw;
+    font-weight: normal;
+  }
+  .mannaka_yusuke{
+    text-align:center;
+
+    font-size: 1.1vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+  }
+ 
+
+header a{
+    color: #F8F8F8;
+}
+.LifeisBeautiful header a{
+    color: #707070;
+}
+header a{
+    font-size: 1.5vw;
+    text-decoration: none;
+}
+.migi{
+    margin-left: 7vw;
+}
+.hidari{
+    margin-right: 7vw;
+}
+
+
+
+
+
+@media (max-aspect-ratio: 1/1) {
+
+    .title{
+        margin:8vh 4px;
+    }
+    .setumei{
+        /* margin-left: 4vh; */
+        width: 75vw;
+        height: 25vh;
+        margin-left: 4vw;
+        margin: 0vh 4vw;
+    
+        font-size: 1.1vw;
+        
+        overflow-y: scroll;
+    }
+    .setumei_sabutaitoru{
+        margin-top: 0vh;
+    }
+    .setumei_honbun{
+        margin-top: 5vh;
+    }
+
+
+    .setumei::-webkit-scrollbar {
+        display: none;
+      }
+      
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .setumei {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      }
+
+    
+      
+    .youtube_wrap{
+        width: 80%;
+        margin: 0vh 0.551vw;/* レスポンシブに合わせてマージンの微調整 */
+    }
+    .youtube_eizo{
+        position: relative;
+        width: 100%;
+        padding-top: 56.25%;
+    }
+    .youtube_eizo iframe{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    
+    
+    .matome{
+        display: flex; /* flexは横並びにするためのプロパティ */
+        flex-wrap: wrap; /* flexで横並びにさせた要素を改行させる */
+        flex-direction: row; /* フレックスコンテナーの並んでいる方向を右にする */
+        justify-content:center; /* アイテムを左端に寄せる   center   */
+    } 
+    
+    header {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+      }
+}
+
+
